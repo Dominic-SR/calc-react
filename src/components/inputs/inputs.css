@@ -1,0 +1,24 @@
+.inputlayer{
+    width: 90%;
+    height: 15%;
+    border-radius: 25px;
+    position: absolute;
+    margin: auto;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.inputlayer > input {
+    color: white;
+    height: 60%;
+    width: 95%;
+    border-radius: 25px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+}

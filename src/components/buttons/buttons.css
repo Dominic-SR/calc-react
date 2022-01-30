@@ -1,0 +1,22 @@
+.buttonlayer{
+    position: absolute;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 25px;
+    left: 15px;
+    right: 15px;
+    bottom: 50px;
+    top: 210px;
+    background: blue;
+}
+
+.btn-wrapper{
+    background: blue;
+    
+}
+
+.buttonlayer > .btn-wrapper > button {
+    color: white;
+    height: 50px;
+    width: 100px;
+}

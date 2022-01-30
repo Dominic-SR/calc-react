@@ -1,0 +1,16 @@
+.outputlayer{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 320px;
+    left: 0;
+    right: 0;
+    height: 10%;
+    width: 90%;
+}
+.outputlayer > h3 {
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    line-height: 60px;
+}

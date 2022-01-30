@@ -1,0 +1,13 @@
+.applayer{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width:30%;
+  height:85%;
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: 7px 7px 15px gold;
+}
