@@ -1,14 +1,30 @@
 import './App.css';
-import Inputs from './components/inputs/inputs';
-import Output from './components/output/output';
-import Buttons from './components/buttons/buttons'
 
 function App() {
   return (
-    <div className="applayer">
-     <Inputs/>
-     <Output/>
-     <Buttons/>
+    <div className="calculator-grid">
+      <div className='output'>
+        <div className='previous-operant'></div>
+        <div className='current-operant'></div>
+      </div>
+      <button className='span-two'>AC</button>
+      <button>DEL</button>
+      <button>%</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>*</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>+</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>-</button>
+      <button>.</button>
+      <button>0</button>
+      <button className='span-two'>=</button>
     </div>
   );
 }
